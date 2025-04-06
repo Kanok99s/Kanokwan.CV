@@ -1,6 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
-export const Projects = () => {
+export const HobbyProjects = () => {
   return (
     <section
       id="projects"
@@ -10,14 +10,11 @@ export const Projects = () => {
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
-            School Projects
+            Hobby Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2">
-                {" "}
-                E-commerce Android Mobile App : CarEship
-              </h3>
+              <h3 className="text-xl font-bold mb-2"> Code Editor Web App</h3>
               <p className="text-gray-400 mb-4">
                 Fullstack mobile E-commerce app with both admin and customer
                 panel, secure payment and virtual delivery control for the
@@ -55,9 +52,7 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">
-                AI Loan Approval System
-              </h3>
+              <h3 className="text-xl font-bold mb-2">E-learning Platform</h3>
               <p className="text-gray-400 mb-4">
                 ML-powered data visualization platform with predictive analytics
                 tool for loan approval estimation based on previous data.
@@ -102,7 +97,9 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Online Banking App</h3>
+              <h3 className="text-xl font-bold mb-2">
+                Real Time Weather Forecasting
+              </h3>
               <p className="text-gray-400 mb-4">
                 Banking app with modern UI, secure money transfering
                 integration, and other banking services.
@@ -141,7 +138,9 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Movie Reviews Web App</h3>
+              <h3 className="text-xl font-bold mb-2">
+                Lingua Translate and TTS bot
+              </h3>
               <p className="text-gray-400 mb-4">
                 Movie reviews platform that supporting real-time commenting,
                 viewing, and profile customization.
